@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         tvTest.setText(getIntent().getStringExtra("test"));
         Intent intent = new Intent();
-        intent.putExtra("test", "业务模块二返回值");
+        intent.putExtra("test", "超人帅吗？");
         setResult(RESULT_OK, intent);
     }
 }
