@@ -39,7 +39,6 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     //自己封装的base库
-    compile 'com.github.NoEndToLF:LibraryBase:1.1.6'
-    compile 'com.alibaba:arouter-api:1.2.2'//跨module跳转
+    compile 'com.github.NoEndToLF:LibraryBase:1.1.7'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.3'
 }
