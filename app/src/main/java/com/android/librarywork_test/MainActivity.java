@@ -9,8 +9,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-
-@Route(path = "/workModule_other/2")
+@Route(path = "/workModule_other/1",group = "LibraryWork_other")
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R2.id.tv_test)
