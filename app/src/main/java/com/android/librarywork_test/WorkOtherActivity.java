@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-public class MainActivity extends AppCompatActivity {
+public class WorkOtherActivity extends AppCompatActivity {
 
     @BindView(R2.id.tv_test)
     TextView tvTest;
