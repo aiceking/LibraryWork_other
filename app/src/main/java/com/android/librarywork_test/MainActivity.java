@@ -5,11 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.alibaba.android.arouter.facade.annotation.Route;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
-@Route(path = "/workModule_other/2")
 public class MainActivity extends AppCompatActivity {
 
     @BindView(R2.id.tv_test)
@@ -21,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         tvTest.setText(getIntent().getStringExtra("test"));
         Intent intent = new Intent();
-        intent.putExtra("test", "超人帅吗？");
+        intent.putExtra("test", "业务模块二返回值：超人帅吗？");
         setResult(RESULT_OK, intent);
     }
 }

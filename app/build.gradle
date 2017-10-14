@@ -13,11 +13,6 @@ android {
         versionCode 1
         versionName "a.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments = [ moduleName : project.getName() ]
-            }
-        }
     }
     buildTypes {
         release {
@@ -39,6 +34,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     //自己封装的base库
-    compile 'com.github.NoEndToLF:LibraryBase:1.1.7'
-    annotationProcessor 'com.alibaba:arouter-compiler:1.1.3'
+    compile 'com.github.NoEndToLF:LibraryBase:1.1.8'
 }
